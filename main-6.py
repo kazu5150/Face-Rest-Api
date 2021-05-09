@@ -7,7 +7,7 @@ import io
 
 st.title("顔認証アプリ")
 
-subscription_key = 'e00e27f8985045b18c1204f55c2d1d7e'
+subscription_key = ''
 assert subscription_key
 face_api_url = 'https://20210418kazu.cognitiveservices.azure.com/face/v1.0/detect'
 
