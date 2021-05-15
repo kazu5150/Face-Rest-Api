@@ -55,8 +55,8 @@ if uploaded_file is not None:
         
         draw = ImageDraw.Draw(img)
         draw.rectangle([(rect["left"],rect["top"]),(rect["left"]+rect["width"],rect["top"]+rect["height"])],fill=None,outline="red",width=2)
-        draw.text((rect["left"],rect["top"]-rect["height"]/5),text,font=font,fill=(0,225,255,0))
-        draw.text((rect["left"],rect["top"]+rect["height"]*4/5),text2,font=font,fill=(0,225,255,0))
+        draw.text((rect["left"],rect["top"]-rect["height"]/5),text,font=font,fill=(0,0,255,0))
+        draw.text((rect["left"],rect["top"]+rect["height"]*4/5),text2,font=font,fill=(0,0,255,0))
 
   
     
